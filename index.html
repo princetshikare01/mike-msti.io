@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike & MsTi Dance Company</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <h1>Welcome to Mike & MsTi Dance Company</h1>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="main-content" style="display: none;">
+        <!-- Header Section -->
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-deep-purple">
+                <a class="navbar-brand" href="#"><img src="logo.png" alt="Mike & MsTi Dance Company" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#classes">Classes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <h1>Join the Rhythm, Dance with Us!</h1>
+                <p>Explore dance classes designed for all skill levels.</p>
+                <a href="#registration" class="btn btn-golden-yellow">Register Now</a>
+            </div>
+        </section>
+
+        <!-- Dance Class Options -->
+        <section class="dance-class-options" id="classes">
+            <div class="container">
+                <h2>Choose Your Dance Style</h2>
+                <div class="row">
+                    <!-- Dance Class 1 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="three-little-ballet-girls-tutu-posing-together.jpg" class="card-img-top img-fluid" alt="Ballet Class">
+                            <div class="card-body">
+                                <h5 class="card-title">Ballet</h5>
+                                <p class="card-text">Graceful and elegant dance form.</p>
+                                <p class="card-text">Schedule: Mon, Wed, Fri</p>
+                                <p class="card-text">Price: P50 per class</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dance Class 2 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="kids-dance-school-ballet-hiphop-street-funky-modern-dancers-studio-background.jpg" class="card-img-top img-fluid" alt="Hip-Hop Class">
+                            <div class="card-body">
+                                <h5 class="card-title">Hip-Hop</h5>
+                                <p class="card-text">Energetic and dynamic dance style.</p>
+                                <p class="card-text">Schedule: Tue, Thu, Sat</p>
+                                <p class="card-text">Price: P40 per class</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dance Class 3 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="pexels-pixabay-270789.jpg" class="card-img-top img-fluid" alt="Salsa Class">
+                            <div class="card-body">
+                                <h5 class="card-title">Salsa</h5>
+                                <p class="card-text">Lively and rhythmic Latin dance.</p>
+                                <p class="card-text">Schedule: Wed, Fri, Sun</p>
+                                <p class="card-text">Price: P45 per class</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dance Class 4 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="pexels-pixabay-209948.jpg" class="card-img-top img-fluid" alt="Jazz Class">
+                            <div class="card-body">
+                                <h5 class="card-title">Jazz</h5>
+                                <p class="card-text">Expressive and theatrical dance form.</p>
+                                <p class="card-text">Schedule: Mon, Wed, Fri</p>
+                                <p class="card-text">Price: P55 per class</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dance Class 5 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="pexels-mart-production-7318767.jpg" class="card-img-top img-fluid" alt="Contemporary Class">
+                            <div class="card-body">
+                                <h5 class="card-title">Contemporary</h5>
+                                <p class="card-text">Fluid and interpretive dance style.</p>
+                                <p class="card-text">Schedule: Tue, Thu, Sat</p>
+                                <p class="card-text">Price: P60 per class</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dance Class 6 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="pexels-cottonbro-6714222.jpg" class="card-img-top img-fluid" alt="Tap Class">
+                            <div class="card-body">
+                                <h5 class="card-title">Tap</h5>
+                                <p class="card-text">Rhythmic and percussive dance form.</p>
+                                <p class="card-text">Schedule: Wed, Fri, Sun</p>
+                                <p class="card-text">Price: P50 per class</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing-section" id="pricing">
+            <div class="container">
+                <h2>Pricing Options</h2>
+                <div class="row">
+                    <!-- Pricing Option 1 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Per Class</h5>
+                                <p class="card-text">Pay as you go.</p>
+                                <p class="card-text">Price: P50 per class</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pricing Option 2 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Per Hour</h5>
+                                <p class="card-text">Flexible hourly rates.</p>
+                                <p class="card-text">Price: P20 per hour</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pricing Option 3 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Per Month</h5>
+                                <p class="card-text">Unlimited classes per month.</p>
+                                <p class="card-text">Price: P150 per month</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pricing Option 4 -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Per Term</h5>
+                                <p class="card-text">Commit to a term of classes.</p>
+                                <p class="card-text">Price: P400 per term</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Form -->
+        <section class="registration-form" id="registration">
+            <div class="container">
+                <h2>Sign Up for a Dance Class</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="danceClass">Select Dance Class</label>
+                        <select class="form-control" id="danceClass" required>
+                            <option>Ballet</option>
+                            <option>Hip-Hop</option>
+                            <option>Salsa</option>
+                            <option>Jazz</option>
+                            <option>Contemporary</option>
+                            <option>Tap</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Preferred Schedule</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="monday">
+                            <label class="form-check-label" for="monday">Monday</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tuesday">
+                            <label class="form-check-label" for="tuesday">Tuesday</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="wednesday">
+                            <label class="form-check-label" for="wednesday">Wednesday</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="thursday">
+                            <label class="form-check-label" for="thursday">Thursday</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="friday">
+                            <label class="form-check-label" for="friday">Friday</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="saturday">
+                            <label class="form-check-label" for="saturday">Saturday</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sunday">
+                            <label class="form-check-label" for="sunday">Sunday</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-golden-yellow">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Testimonial 1 -->
+                        <div class="carousel-item active">
+                            <div class="testimonial-card">
+                                <p>"Great experience! The instructors are amazing and the classes are so much fun."</p>
+                                <img src="Test1.jpg" alt="Student" class="img-fluid">
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2 -->
+                        <div class="carousel-item">
+                            <div class="testimonial-card">
+                                <p>"I've learned so much and made great friends. Highly recommend!"</p>
+                                <img src="Test2.jpg" alt="Student" class="img-fluid">
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 3 -->
+                        <div class="carousel-item">
+                            <div class="testimonial-card">
+                                <p>"The dance classes here are top-notch. I feel more confident and skilled every day."</p>
+                                <img src="Test 3.jpg" alt="Student" class="img-fluid">
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 4 -->
+                        <div class="carousel-item">
+                            <div class="testimonial-card">
+                                <p>"I love the variety of classes offered. There's something for everyone!"</p>
+                                <img src="Test 4.jpg" alt="Student" class="img-fluid">
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="contactName">Name</label>
+                                <input type="text" class="form-control" id="contactName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email</label>
+                                <input type="email" class="form-control" id="contactEmail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message</label>
+                                <textarea class="form-control" id="contactMessage" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-golden-yellow">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434501796!2d25.91329831500293!3d-24.65472798403309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e300428789f7801%3A0x400f7f97a01b5b0!2sGaborone%2C%20Botswana!5e0!3m2!1sen!2sbw!4v1633084266727!5m2!1sen!2sbw" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="contact-info">
+                            <p><strong>Address:</strong> 123 Dance Street, Gaborone, Botswana</p>
+                            <p><strong>Phone:</strong> +267 123 4567</p>
+                            <p><strong>Email:</strong> info@mikeandmstidance.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="social-media">
+                    <a href="#"><img src="facebook.png" alt="Facebook" class="img-fluid"></a>
+                    <a href="#"><img src="twitter.png" alt="Twitter" class="img-fluid"></a>
+                    <a href="#"><img src="instagram.png" alt="Instagram" class="img-fluid"></a>
+                    <a href="#"><img src="youtube.png" alt="YouTube" class="img-fluid"></a>
+                </div>
+                <p>Company Address & Contact Info</p>
+                <p>© 2025 Mike & MsTi Dance Company</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+                document.getElementById('loading-screen').style.display = 'none';
+                document.getElementById('main-content').style.display = 'block';
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

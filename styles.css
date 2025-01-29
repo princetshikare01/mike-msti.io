@@ -1,0 +1,288 @@
+/* Colors */
+.bg-deep-purple {
+    background-color: #4B0050;
+}
+
+.btn-golden-yellow {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+}
+
+.btn-golden-yellow:hover {
+    background-color: #FFD700;
+    color: white;
+}
+
+/* Header */
+.navbar-brand img {
+    height: 40px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: goldenrod;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #4B0050, goldenrod);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+/* Dance Class Options */
+.dance-class-options {
+    padding: 50px 0;
+    background-color: #4B0050;
+    color: white;
+}
+
+.dance-class-options h2 {
+    color: goldenrod;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #4B0050;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px goldenrod;
+}
+
+.card-title {
+    color: goldenrod;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Pricing Section */
+.pricing-section {
+    padding: 50px 0;
+    background-color: white;
+    color: #4B0050;
+}
+
+.pricing-section h2 {
+    color: #4B0050;
+    margin-bottom: 30px;
+}
+
+.pricing-section .card {
+    background-color: #4B0050;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.pricing-section .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px goldenrod;
+}
+
+.pricing-section .card-title {
+    color: goldenrod;
+}
+
+/* Registration Form */
+.registration-form {
+    background-color: white;
+    padding: 50px 0;
+    position: relative;
+}
+
+.registration-form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 215, 0, 0.1);
+    z-index: -1;
+}
+
+.registration-form h2 {
+    color: #4B0050;
+    margin-bottom: 30px;
+}
+
+.btn-golden-yellow:hover {
+    background-color: #4B0050;
+    color: white;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #4B0050;
+    color: white;
+    padding: 50px 0;
+    position: relative;
+}
+
+.testimonials::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('leopard-pattern.png') no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.testimonial-card {
+    background-color: #4B0050;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    margin: 0 auto; /* Center the card */
+    max-width: 600px; /* Optional: limit the width of the card */
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px goldenrod;
+}
+
+.testimonial-card img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.stars {
+    color: goldenrod;
+}
+
+/* Carousel Controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    color: #4B0050;
+    margin-bottom: 30px;
+}
+
+.contact-section .map-container {
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #4B0050;
+    color: goldenrod;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media a img {
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-media a img:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Images */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Loading Screen */
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4B0050;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease-out;
+}
+
+.loading-content {
+    text-align: center;
+}
+
+.loading-content h1 {
+    font-size: 2em;
+    margin: 20px 0 0;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 20px;
+}
